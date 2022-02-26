@@ -40,7 +40,7 @@ Name	Function	IP Address	Operating System
 
 Jump Box	Gateway	10.0.0.4	Linux
 
-VM1                 	Server	10.0.0.5	Linux
+VM1 Server	10.0.0.5	Linux
 
 VM2	Server	10.0.0.6	Linux
 
