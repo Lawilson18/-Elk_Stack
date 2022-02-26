@@ -38,13 +38,13 @@ The configuration details of each machine may be found below. Note: Use the Mark
 
 Name	Function	IP Address	Operating System
 
-Jump Box	Gateway	10.0.0.4	Linux
+Jump Box	 Gateway	10.0.0.4	 Linux
 
-VM1 Server	10.0.0.5	Linux
+VM1       Server	10.0.0.5	  Linux
 
-VM2	Server	10.0.0.6	Linux
+VM2	      Server	10.0.0.6	  Linux
 
-Elk 	Server		Linux
+Elk      	Server		          Linux
 
 Access Policies
 
@@ -62,13 +62,14 @@ Machines within the network can only be accessed by the jumpbox virtual machine.
 A summary of the access policies in place can be found in the table below.
 
 Name	Publicly Accessible	Allowed IP Addresses
-Jump Box	Yes	Home Ip
 
-VM1	No	10.0.0.4
+Jump Box	Yes	 Home IP
 
-VM2 	No	10.0.0.4
+VM1	     No	  10.0.0.4
 
-Elk	No	10.0.0.4
+VM2     	No	  10.0.0.4
+
+Elk	     No	  10.0.0.4
 
 Elk Configuration
 Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because...
